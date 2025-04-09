@@ -1,0 +1,139 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom right, #e0e7ff, #f3e8ff, #fde2f2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #e0e7ff, #f3e8ff, #fde2f2);
+  color: #333;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #4f46e5;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #9333ea;
+  margin: 3rem 0 1rem;
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  justify-content: center;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #d23669;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.card-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.skills {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.contact {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.downloads {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.download-button,
+.download-link {
+  text-decoration: none;
+  background: #3b82f6;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.download-link {
+  background: none;
+  color: #2563eb;
+  padding: 0;
+}
+
+.download-button:hover {
+  background: #2563eb;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
